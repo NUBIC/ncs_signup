@@ -55,7 +55,7 @@
       .fields
         .alt_field
           = f.label :contact_preference, "Prefered way to contact you?"
-          = f.select :contact_preference, ["Mail me a brochure", "Send me an email","Call me at work","Call me at home","Call me on my mobile phone"]
+          = f.select :contact_preference, ["Call me", "Mail me a brochure", "Send me an email"]
    
     .submit_area
       = link_to "Click here to read our confidentiality statement", nil, {:href => "#",:id => "confd_show"}
