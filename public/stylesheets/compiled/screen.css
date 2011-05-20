@@ -1,0 +1,600 @@
+/* line 4, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 6, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html {
+  font-size: 100.01%;
+}
+
+/* line 16, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+pre, a, abbr, acronym, address, code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 18, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote, q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" "";
+}
+/* line 45, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 20, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+th, td, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 22, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 24, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 22, ../../../app/stylesheets/screen.scss */
+body.bp {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-size: 75%;
+}
+/* line 65, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h1, body.bp h2, body.bp h3, body.bp h4, body.bp h5, body.bp h6 {
+  font-weight: normal;
+  color: #222222;
+}
+/* line 66, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h1 img, body.bp h2 img, body.bp h3 img, body.bp h4 img, body.bp h5 img, body.bp h6 img {
+  margin: 0;
+}
+/* line 67, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.50em;
+}
+/* line 68, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+/* line 69, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1.00em;
+}
+/* line 70, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+/* line 71, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.50em;
+}
+/* line 72, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+/* line 73, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp p {
+  margin: 0 0 1.5em;
+}
+/* line 74, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp p img.left {
+  display: inline;
+  float: left;
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+/* line 75, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp p img.right {
+  display: inline;
+  float: right;
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+}
+/* line 77, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp a {
+  text-decoration: underline;
+  color: #000099;
+}
+/* line 18, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body.bp a:visited {
+  color: #000066;
+}
+/* line 21, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body.bp a:focus {
+  color: black;
+}
+/* line 24, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body.bp a:hover {
+  color: black;
+}
+/* line 27, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
+body.bp a:active {
+  color: #cc0099;
+}
+/* line 78, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp blockquote {
+  margin: 1.5em;
+  color: #666666;
+  font-style: italic;
+}
+/* line 79, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp strong {
+  font-weight: bold;
+}
+/* line 80, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp em {
+  font-style: italic;
+}
+/* line 81, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp dfn {
+  font-style: italic;
+  font-weight: bold;
+}
+/* line 82, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp sup, body.bp sub {
+  line-height: 0;
+}
+/* line 83, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp abbr, body.bp acronym {
+  border-bottom: 1px dotted #666666;
+}
+/* line 84, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+/* line 85, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp del {
+  color: #666666;
+}
+/* line 86, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+/* line 87, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp pre, body.bp code, body.bp tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+/* line 88, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp li ul, body.bp li ol {
+  margin: 0;
+}
+/* line 89, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp ul, body.bp ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 3.333em;
+}
+/* line 90, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp ul {
+  list-style-type: disc;
+}
+/* line 91, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp ol {
+  list-style-type: decimal;
+}
+/* line 92, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp dl {
+  margin: 0 0 1.5em 0;
+}
+/* line 93, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp dl dt {
+  font-weight: bold;
+}
+/* line 94, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp dd {
+  margin-left: 1.5em;
+}
+/* line 95, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+/* line 96, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp th {
+  font-weight: bold;
+}
+/* line 97, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp thead th {
+  background: #c3d9ff;
+}
+/* line 98, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp th, body.bp td, body.bp caption {
+  padding: 4px 10px 4px 5px;
+}
+/* line 99, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp tr.even td {
+  background: #e5ecf9;
+}
+/* line 100, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp tfoot {
+  font-style: italic;
+}
+/* line 101, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp caption {
+  background: #eeeeee;
+}
+/* line 102, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp .quiet {
+  color: #666666;
+}
+/* line 103, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
+body.bp .loud {
+  color: #111111;
+}
+
+/* line 45, ../../../app/stylesheets/screen.scss */
+body {
+  background-color: #3a5fa6;
+}
+
+/* line 62, ../../../app/stylesheets/screen.scss */
+#layer_frame {
+  position: relative;
+  height: 830px;
+}
+
+/* line 77, ../../../app/stylesheets/screen.scss */
+#hancock_layer {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  background-image: url("/images/hancock_layer.png");
+  bottom: 190px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  z-index: 1;
+}
+
+/* line 86, ../../../app/stylesheets/screen.scss */
+#metra_layer {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  bottom: 180px;
+  background-image: url("/images/metra_layer.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  z-index: 2;
+}
+
+/* line 95, ../../../app/stylesheets/screen.scss */
+#ferris_layer {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  background-image: url("/images/ferris_layer.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  z-index: 3;
+}
+
+/* line 103, ../../../app/stylesheets/screen.scss */
+#cornfield_layer {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  background-image: url("/images/cornfield_layer.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  z-index: 4;
+}
+
+/* line 112, ../../../app/stylesheets/screen.scss */
+#container {
+  position: absolute;
+  left: 15%;
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  color: #f0f0f0;
+  z-index: 10;
+}
+
+/* line 121, ../../../app/stylesheets/screen.scss */
+#content {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+  z-index: 100;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #content {
+  overflow-x: hidden;
+}
+
+/* line 126, ../../../app/stylesheets/screen.scss */
+#heading {
+  margin-top: 1em;
+  font-size: 2em;
+}
+/* line 130, ../../../app/stylesheets/screen.scss */
+#heading em {
+  font-style: normal;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 138, ../../../app/stylesheets/screen.scss */
+#sign_up {
+  margin-top: 2em;
+  padding-left: 80px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 630px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #sign_up {
+  overflow-x: hidden;
+}
+
+/* line 144, ../../../app/stylesheets/screen.scss */
+.group {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 550px;
+  background-color: #3a5fa6;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .group {
+  overflow-x: hidden;
+}
+
+/* line 149, ../../../app/stylesheets/screen.scss */
+.name {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+  padding-top: 0.35em;
+  text-align: right;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .name {
+  overflow-x: hidden;
+}
+
+/* line 157, ../../../app/stylesheets/screen.scss */
+.fields {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .fields {
+  overflow-x: hidden;
+}
+/* line 160, ../../../app/stylesheets/screen.scss */
+.fields .field {
+  margin: 5px;
+  background: #fff;
+  border: 2px inset #999;
+}
+/* line 165, ../../../app/stylesheets/screen.scss */
+.fields .field label {
+  position: absolute;
+  padding: 2px 3px 3px 3px;
+  margin-left: 3px;
+  color: #999999;
+}
+/* line 172, ../../../app/stylesheets/screen.scss */
+.fields .field input, .fields .field textarea, .fields .field select {
+  position: relative;
+  margin: 0;
+  border-width: 0px;
+  padding: 3px 0 3px 3px;
+  background: transparent;
+  font: inherit;
+}
+/* line 181, ../../../app/stylesheets/screen.scss */
+.fields .reg {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 190px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .fields .reg {
+  overflow-x: hidden;
+}
+/* line 184, ../../../app/stylesheets/screen.scss */
+.fields .sub_group {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 190px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .fields .sub_group {
+  overflow-x: hidden;
+}
+/* line 187, ../../../app/stylesheets/screen.scss */
+.fields .city {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 190px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .fields .city {
+  overflow-x: hidden;
+}
+/* line 190, ../../../app/stylesheets/screen.scss */
+.fields .state {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 70px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .fields .state {
+  overflow-x: hidden;
+}
+/* line 193, ../../../app/stylesheets/screen.scss */
+.fields .zip {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 70px;
+}
+/* line 138, ../../../../../.rvm/gems/ree-1.8.7-2011.03@ncs_signup/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .fields .zip {
+  overflow-x: hidden;
+}
+/* line 197, ../../../app/stylesheets/screen.scss */
+.fields .alt_field {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+/* line 200, ../../../app/stylesheets/screen.scss */
+.fields .alt_field label {
+  font-size: 1.2em;
+}
+
+/* line 208, ../../../app/stylesheets/screen.scss */
+.submit_area {
+  text-align: right;
+  clear: both;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+/* line 214, ../../../app/stylesheets/screen.scss */
+.submit_area a {
+  color: #bdcdec !important;
+  font-weight: bold;
+}
+/* line 218, ../../../app/stylesheets/screen.scss */
+.submit_area a:visited {
+  color: #bdcdec !important;
+}
+/* line 222, ../../../app/stylesheets/screen.scss */
+.submit_area a:hover {
+  color: #96b0e0 !important;
+}
+
+/* line 228, ../../../app/stylesheets/screen.scss */
+#signup_submit {
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+/* line 233, ../../../app/stylesheets/screen.scss */
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 11em;
+  background-color: #f0f0f0;
+  font-size: 1.2em;
+  z-index: 5;
+}
+/* line 243, ../../../app/stylesheets/screen.scss */
+#footer .ncs_logo {
+  float: left;
+  padding-top: 0.2em;
+  padding-left: 0.4em;
+}
+/* line 249, ../../../app/stylesheets/screen.scss */
+#footer .contact_info {
+  padding-top: 1em;
+  text-align: center;
+}
+/* line 254, ../../../app/stylesheets/screen.scss */
+#footer .ncs_text {
+  float: right;
+  width: 200px;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+}
+/* line 260, ../../../app/stylesheets/screen.scss */
+#footer .ncs_text img {
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 270, ../../../app/stylesheets/screen.scss */
+#confd_msg {
+  display: none;
+}

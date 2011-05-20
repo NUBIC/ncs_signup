@@ -1,0 +1,67 @@
+#heading
+  %em Fill in this form
+  and someone from
+  %br
+  &nbsp;&nbsp;&nbsp;&nbsp;the
+  %em NCS Greater Chicago Study Center
+  will contact you
+#sign_up
+  = form_for :participant, :url => signup_create_url do |f|
+    .group
+      .name Your Name
+      .fields
+        .field.reg
+          = f.label :name, {:class => 'overlabel'}
+          = f.text_field :name, {:size => 33, :maxlength => 150}
+    .group
+      .name Your Address
+      .fields
+        .field.reg
+          = f.label :address, {:class => 'overlabel'}
+          = f.text_field :address, {:size => 33, :maxlength => 150}
+        .field.reg
+          = f.label :apt_or_unit, "Apt or Unit #", {:class => 'overlabel'}
+          = f.text_field :apt_or_unit, {:size => 33, :maxlength => 150}
+        .field.city
+          = f.label :city, {:class => 'overlabel'}
+          = f.text_field :city, {:size => 33, :maxlength => 150}
+        .sub_group
+          .field.state
+            = f.label :state, {:class => 'overlabel'}
+            = f.text_field :state, {:size => 10, :maxlength =>50, :value => "Illinois"}
+          .field.zip
+            = f.label :zip, {:class => 'overlabel'}
+            = f.text_field :zip, {:size => 5, :maxlength => 5} 
+    .group
+      .name Your phone numbers
+      .fields
+        .field.reg
+          = f.label :home_phone, {:class => 'overlabel'}
+          = f.text_field :home_phone
+        .field.reg
+          = f.label :mobile_phone, {:class => 'overlabel'}
+          = f.text_field :mobile_phone
+        .field.reg
+          = f.label :work_phone, {:class => 'overlabel'}
+          = f.text_field :work_phone
+    .group
+      .name Your email
+      .fields
+        .field.reg
+          = f.label :email, {:class => 'overlabel'}
+          = f.text_field :email
+    .group  
+      .name &nbsp;
+      .fields
+        .alt_field
+          = f.label :contact_preference, "Prefered way to contact you?"
+          = f.select :contact_preference, ["Mail me a brochure", "Send me an email","Call me at work","Call me at home","Call me on my mobile phone"]
+   
+    .submit_area
+      = link_to "Click here to read our confidentiality statement", nil, {:href => "#",:id => "confd_show"}
+      &nbsp;
+      = f.submit "Submit", {:id => "signup_submit"}
+
+#confd_msg{:title => "Confidentiality Notice"}
+  Any information that you provide will be kept completely confidential  and private.  This information will only be used to contact you about  the National Children's Study.
+
