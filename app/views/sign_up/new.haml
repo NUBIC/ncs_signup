@@ -4,9 +4,10 @@
       =flash[:msg]
     .ers
       %ul
-        - @participant.errors.full_messages.each do |e|
-          %li
-            =e
+        -if @participant.errors[:name]
+          %li= "Name #{@participant.errors[:name]}"
+        -if @participant.errors[:phone_numbers]
+          %li= "Phone numbers #{@participant.errors[:phone_numbers]}"
 #heading
   %em Fill in this form
   and someone from

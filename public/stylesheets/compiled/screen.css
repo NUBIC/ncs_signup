@@ -583,35 +583,39 @@ body {
 .field_with_errors {
   background-color: #ecf1a7;
 }
+/* line 214, ../../../app/stylesheets/screen.scss */
+.field_with_errors label {
+  background-color: #ecf1a7;
+}
 
-/* line 215, ../../../app/stylesheets/screen.scss */
+/* line 219, ../../../app/stylesheets/screen.scss */
 .submit_area {
   text-align: right;
   clear: both;
   padding-right: 2em;
   padding-top: 2em;
 }
-/* line 221, ../../../app/stylesheets/screen.scss */
+/* line 225, ../../../app/stylesheets/screen.scss */
 .submit_area a {
   color: #bdcdec !important;
   font-weight: bold;
 }
-/* line 225, ../../../app/stylesheets/screen.scss */
+/* line 229, ../../../app/stylesheets/screen.scss */
 .submit_area a:visited {
   color: #bdcdec !important;
 }
-/* line 229, ../../../app/stylesheets/screen.scss */
+/* line 233, ../../../app/stylesheets/screen.scss */
 .submit_area a:hover {
   color: #96b0e0 !important;
 }
 
-/* line 235, ../../../app/stylesheets/screen.scss */
+/* line 239, ../../../app/stylesheets/screen.scss */
 #signup_submit {
   font-size: 1.5em;
   padding: 5px;
 }
 
-/* line 240, ../../../app/stylesheets/screen.scss */
+/* line 244, ../../../app/stylesheets/screen.scss */
 #footer {
   position: absolute;
   bottom: 0px;
@@ -622,25 +626,25 @@ body {
   font-size: 1.1em;
   z-index: 5;
 }
-/* line 250, ../../../app/stylesheets/screen.scss */
+/* line 254, ../../../app/stylesheets/screen.scss */
 #footer .ncs_logo {
   float: left;
   padding-top: 0.2em;
   padding-left: 0.4em;
 }
-/* line 256, ../../../app/stylesheets/screen.scss */
+/* line 260, ../../../app/stylesheets/screen.scss */
 #footer .contact_info {
   padding-top: 1em;
   text-align: center;
 }
-/* line 261, ../../../app/stylesheets/screen.scss */
+/* line 265, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text {
   float: right;
   width: 200px;
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
-/* line 267, ../../../app/stylesheets/screen.scss */
+/* line 271, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text img {
   padding: 1em;
   display: block;
@@ -648,18 +652,18 @@ body {
   margin-right: auto;
 }
 
-/* line 277, ../../../app/stylesheets/screen.scss */
+/* line 281, ../../../app/stylesheets/screen.scss */
 #confd_msg {
   display: none;
 }
 
-/* line 281, ../../../app/stylesheets/screen.scss */
+/* line 285, ../../../app/stylesheets/screen.scss */
 #thank_you {
   margin-top: 4em;
   font-size: 2em;
   font-weight: bold;
 }
-/* line 286, ../../../app/stylesheets/screen.scss */
+/* line 290, ../../../app/stylesheets/screen.scss */
 #thank_you .note {
   font-size: 0.8em;
   font-weight: normal;

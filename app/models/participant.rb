@@ -11,5 +11,8 @@ class Participant < ActiveRecord::Base
   def at_least_one_phone_number
     has_one_phone = !self.home_phone.blank? || !self.work_phone.blank? || !self.mobile_phone.blank?
     errors.add(:phone_numbers, "are required. Please provide at least one phone number.") unless has_one_phone
+    errors.add(:home_phone, nil)
+    errors.add(:work_phone, nil)
+    errors.add(:mobile_phone, nil)
   end
 end
