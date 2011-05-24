@@ -12,7 +12,7 @@ class CreateParticipants < ActiveRecord::Migration
       t.string :work_phone
       t.string :contact_preference
       t.string :email
-      t.string :exported_at
+      t.datetime :exported_at
       t.timestamps
     end
   end

@@ -11,6 +11,7 @@ gem 'haml', '~>3.0.25'
 gem 'compass', '~>0.10.6'
 gem 'capistrano'
 gem 'bcdatabase'
+gem 'fastercsv'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.5.0'

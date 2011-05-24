@@ -67,6 +67,7 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    fastercsv (1.5.4)
     ffi (0.6.3)
       rake (>= 0.8.7)
     gherkin (2.3.4)
@@ -147,6 +148,7 @@ DEPENDENCIES
   capybara (~> 0.4.1.2)
   compass (~> 0.10.6)
   cucumber-rails (~> 0.3.2)
+  fastercsv
   haml (~> 3.0.25)
   pg
   rails (= 3.0.5)

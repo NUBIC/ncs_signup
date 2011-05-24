@@ -4,5 +4,6 @@ log/*.log
 tmp/
 *.swo
 *.swp
+export/*.csv
 .DS_Store
 
