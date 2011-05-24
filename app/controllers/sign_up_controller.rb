@@ -5,7 +5,13 @@ class SignUpController < ApplicationController
   end
 
   def create
-    render :action => "show"
+    @participant = Participant.new(params[:participant])
+    if @participant.save
+      render :action => "show"
+    else
+      flash[:msg] = "Almost finished! Please correct these:"
+      render :action => "new"
+    end
   end
 
   def show

@@ -1,3 +1,12 @@
+-unless flash[:msg].blank?
+  #flashmsg
+    .msg 
+      =flash[:msg]
+    .ers
+      %ul
+        - @participant.errors.full_messages.each do |e|
+          %li
+            =e
 #heading
   %em Fill in this form
   and someone from
@@ -54,7 +63,7 @@
       .name &nbsp;
       .fields
         .alt_field
-          = f.label :contact_preference, "Prefered way to contact you?"
+          = f.label :contact_preference, "Preferred way to contact you?"
           = f.select :contact_preference, ["Call me", "Mail me a brochure", "Send me an email"]
    
     .submit_area

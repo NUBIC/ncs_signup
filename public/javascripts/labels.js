@@ -3,16 +3,17 @@
 
     function showLabel(){
       if(jQuery.trim($(this).val()).length == 0){ 
-        $(this).prev('label.overlabel').css('color', '#999');
+        $(this).closest('.field').find('label.overlabel').css('color', '#999');
       }
       else{
-        // keep hidden cause there's stuff in it
-        $(this).prev('label.overlabel').css('color', '#fff');
+        var label = $(this).closest('.field').find('label.overlabel');
+        label.css('color', label.css('background-color'));
       }
     };
 
     function hideLabel(){
-      $(this).prev('label.overlabel').css('color', '#fff');
+      var label = $(this).closest('.field').find('label.overlabel');
+      label.css('color', label.css('background-color'));
     };
 
     //$('select').live('change', toggleLabel);
@@ -25,11 +26,11 @@
     $('input, textarea').live('focusin', function() {
         
      if(jQuery.trim($(this).val()).length == 0){ 
-        $(this).prev('label.overlabel').css('color', '#ccc');
+        $(this).closest('.field').find('label.overlabel').css('color', '#ccc');
       }
       else{
         // keep hidden cause there's stuff in it
-        $(this).prev('label.overlabel').css('color', '#fff');
+        $(this).closest('.field').find('label.overlabel').css('color', '#fff');
       }
 
     });
