@@ -6,14 +6,14 @@
         $(this).closest('.field').find('label.overlabel').css('color', '#999');
       }
       else{
-        var label = $(this).closest('.field').find('label.overlabel');
-        label.css('color', label.css('background-color'));
+        var field = $(this).closest('.field');
+        field.find('label.overlabel').css('color', field.css('background-color'));
       }
     };
 
     function hideLabel(){
-      var label = $(this).closest('.field').find('label.overlabel');
-      label.css('color', label.css('background-color'));
+      var field = $(this).closest('.field');
+      field.find('label.overlabel').css('color', field.css('background-color'));
     };
 
     //$('select').live('change', toggleLabel);
@@ -29,8 +29,8 @@
         $(this).closest('.field').find('label.overlabel').css('color', '#ccc');
       }
       else{
-        var label = $(this).closest('.field').find('label.overlabel');
-        label.css('color', label.css('background-color'));
+        var field = $(this).closest('.field');
+        field.find('label.overlabel').css('color', field.css('background-color'));
       }
 
     });

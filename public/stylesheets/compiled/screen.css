@@ -503,8 +503,9 @@ body {
   padding: 2px 3px 3px 3px;
   margin-left: 3px;
   color: #999999;
+  background: transparent;
 }
-/* line 175, ../../../app/stylesheets/screen.scss */
+/* line 176, ../../../app/stylesheets/screen.scss */
 .fields .field input, .fields .field textarea, .fields .field select {
   position: relative;
   margin: 0;
@@ -513,7 +514,7 @@ body {
   background: transparent;
   font: inherit;
 }
-/* line 184, ../../../app/stylesheets/screen.scss */
+/* line 185, ../../../app/stylesheets/screen.scss */
 .fields .reg {
   display: inline;
   float: left;
@@ -524,7 +525,7 @@ body {
 * html .fields .reg {
   overflow-x: hidden;
 }
-/* line 187, ../../../app/stylesheets/screen.scss */
+/* line 188, ../../../app/stylesheets/screen.scss */
 .fields .sub_group {
   display: inline;
   float: left;
@@ -535,7 +536,7 @@ body {
 * html .fields .sub_group {
   overflow-x: hidden;
 }
-/* line 190, ../../../app/stylesheets/screen.scss */
+/* line 191, ../../../app/stylesheets/screen.scss */
 .fields .city {
   display: inline;
   float: left;
@@ -546,7 +547,7 @@ body {
 * html .fields .city {
   overflow-x: hidden;
 }
-/* line 193, ../../../app/stylesheets/screen.scss */
+/* line 194, ../../../app/stylesheets/screen.scss */
 .fields .state {
   display: inline;
   float: left;
@@ -557,7 +558,7 @@ body {
 * html .fields .state {
   overflow-x: hidden;
 }
-/* line 196, ../../../app/stylesheets/screen.scss */
+/* line 197, ../../../app/stylesheets/screen.scss */
 .fields .zip {
   display: inline;
   float: left;
@@ -568,49 +569,49 @@ body {
 * html .fields .zip {
   overflow-x: hidden;
 }
-/* line 200, ../../../app/stylesheets/screen.scss */
+/* line 201, ../../../app/stylesheets/screen.scss */
 .fields .alt_field {
   color: #f0f0f0;
   font-weight: bold;
 }
-/* line 203, ../../../app/stylesheets/screen.scss */
+/* line 204, ../../../app/stylesheets/screen.scss */
 .fields .alt_field label {
   font-size: 1.2em;
 }
 
-/* line 210, ../../../app/stylesheets/screen.scss */
+/* line 211, ../../../app/stylesheets/screen.scss */
 .field_with_errors {
   background-color: #ecf1a7;
 }
 
-/* line 214, ../../../app/stylesheets/screen.scss */
+/* line 215, ../../../app/stylesheets/screen.scss */
 .submit_area {
   text-align: right;
   clear: both;
   padding-right: 2em;
   padding-top: 2em;
 }
-/* line 220, ../../../app/stylesheets/screen.scss */
+/* line 221, ../../../app/stylesheets/screen.scss */
 .submit_area a {
   color: #bdcdec !important;
   font-weight: bold;
 }
-/* line 224, ../../../app/stylesheets/screen.scss */
+/* line 225, ../../../app/stylesheets/screen.scss */
 .submit_area a:visited {
   color: #bdcdec !important;
 }
-/* line 228, ../../../app/stylesheets/screen.scss */
+/* line 229, ../../../app/stylesheets/screen.scss */
 .submit_area a:hover {
   color: #96b0e0 !important;
 }
 
-/* line 234, ../../../app/stylesheets/screen.scss */
+/* line 235, ../../../app/stylesheets/screen.scss */
 #signup_submit {
   font-size: 1.5em;
   padding: 5px;
 }
 
-/* line 239, ../../../app/stylesheets/screen.scss */
+/* line 240, ../../../app/stylesheets/screen.scss */
 #footer {
   position: absolute;
   bottom: 0px;
@@ -621,25 +622,25 @@ body {
   font-size: 1.1em;
   z-index: 5;
 }
-/* line 249, ../../../app/stylesheets/screen.scss */
+/* line 250, ../../../app/stylesheets/screen.scss */
 #footer .ncs_logo {
   float: left;
   padding-top: 0.2em;
   padding-left: 0.4em;
 }
-/* line 255, ../../../app/stylesheets/screen.scss */
+/* line 256, ../../../app/stylesheets/screen.scss */
 #footer .contact_info {
   padding-top: 1em;
   text-align: center;
 }
-/* line 260, ../../../app/stylesheets/screen.scss */
+/* line 261, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text {
   float: right;
   width: 200px;
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
-/* line 266, ../../../app/stylesheets/screen.scss */
+/* line 267, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text img {
   padding: 1em;
   display: block;
@@ -647,18 +648,18 @@ body {
   margin-right: auto;
 }
 
-/* line 276, ../../../app/stylesheets/screen.scss */
+/* line 277, ../../../app/stylesheets/screen.scss */
 #confd_msg {
   display: none;
 }
 
-/* line 280, ../../../app/stylesheets/screen.scss */
+/* line 281, ../../../app/stylesheets/screen.scss */
 #thank_you {
   margin-top: 4em;
   font-size: 2em;
   font-weight: bold;
 }
-/* line 285, ../../../app/stylesheets/screen.scss */
+/* line 286, ../../../app/stylesheets/screen.scss */
 #thank_you .note {
   font-size: 0.8em;
   font-weight: normal;
