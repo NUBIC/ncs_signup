@@ -29,8 +29,8 @@
         $(this).closest('.field').find('label.overlabel').css('color', '#ccc');
       }
       else{
-        // keep hidden cause there's stuff in it
-        $(this).closest('.field').find('label.overlabel').css('color', '#fff');
+        var label = $(this).closest('.field').find('label.overlabel');
+        label.css('color', label.css('background-color'));
       }
 
     });
