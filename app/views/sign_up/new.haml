@@ -4,9 +4,9 @@
       =flash[:msg]
     .ers
       %ul
-        -if @participant.errors[:name]
+        -unless @participant.errors[:name].blank?
           %li= "Name #{@participant.errors[:name]}"
-        -if @participant.errors[:phone_numbers]
+        -unless @participant.errors[:phone_numbers].blank?
           %li= "Phone numbers #{@participant.errors[:phone_numbers]}"
 #heading
   %em Fill in this form
