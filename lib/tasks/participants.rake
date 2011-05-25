@@ -1,4 +1,4 @@
-require 'FasterCSV' 
+require 'fastercsv' 
 
 namespace :participants do
 
