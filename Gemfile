@@ -12,6 +12,7 @@ gem 'compass', '~>0.10.6'
 gem 'capistrano'
 gem 'bcdatabase'
 gem 'fastercsv'
+gem 'rake', '~> 0.8.7' # version 0.9.0 is bad http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0-beta-4
 
 group :development, :test do
   gem 'rspec-rails', '~>2.5.0'
