@@ -21,13 +21,13 @@
       .name Your Name
       .fields
         .field.reg
-          = f.label :name, {:class => 'overlabel'}
+          = f.label :name, "First and Last Name", {:class => 'overlabel'}
           = f.text_field :name, {:size => 34, :maxlength => 150}
     .group
       .name Your Address
       .fields
         .field.reg
-          = f.label :address, {:class => 'overlabel'}
+          = f.label :address, "Street Address", {:class => 'overlabel'}
           = f.text_field :address, {:size => 34, :maxlength => 150}
         .field.reg
           = f.label :apt_or_unit, "Apt or Unit #", {:class => 'overlabel'}
