@@ -73,6 +73,7 @@ body {
 
 #ferris_layer{
   @include tlayer-base;
+  bottom: 160px;
   background-image: url('/images/ferris_layer.png');
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -280,7 +281,8 @@ body {
 }
 
 #thank_you{
-   @include prepend-top(4em);
+  @include prepend-top(4em);
+  @include prepend(1);
   font-size: 2em;
   font-weight: bold;
 
