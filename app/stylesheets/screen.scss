@@ -48,7 +48,6 @@ body {
    background: transparent;
    position: absolute;
    top: 0;
-   bottom: 120px;
    left: 0;
    right: 0;
 }
@@ -85,6 +84,7 @@ body {
   background-image: url('/images/cornfield_layer.png');
   background-repeat: repeat-x;
   background-position: center bottom;
+  bottom: 130px;
   z-index: 4;
 }
 
