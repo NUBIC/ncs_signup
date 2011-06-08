@@ -16,31 +16,31 @@ body.bp {
 
 // Some of our color settings
 $primary_text: #f0f0f0;
-$label_text: #999;
-$footer_bg: #f0f0f0;
-$bg_color: #3A5FA6;
+$label_text: #777;
+$footer_bg: #fff;
+$bg_color: #3a5fa6;
 
-$lgt_link: #BDCDEC;
-$visited_lgt_link: #BDCDEC;
-$hover_lgt_link: #96B0E0;
+$lgt_link: #f0f0f0; //high contrast needed for 508compliance
+$visited_lgt_link: #f0f0f0;
+$hover_lgt_link: #fcff00;
 
-$flashmsg_bg: #E0F100;
+$flashmsg_bg: #e0f100;
 $flashmsg_txt: #333;
-$flashmsg_bg_label: #ECF1A7;
+$flashmsg_bg_label: #ecf1a7;
 
 $page_height: 830px;
 
 
 // Page layout can be done using mixins applied to your semantic classes and IDs:
 body {
-  background-color: $bg_color; //#304f80;
-
+  background-color: $footer_bg;
 }
 
 //holds the layers just to set the page size
 #layer_frame{
   position: relative;
   height: $page_height;
+  background-color: $bg_color;
   
 }
 
@@ -219,7 +219,8 @@ body {
   clear:both;
   padding-right: 2em;
   padding-top: 2em;
- 
+  font-size: 1.1em; 
+
   a{
     color: $lgt_link !important;
     font-weight: bold;
