@@ -2,13 +2,14 @@
 (function($) {
 
     function showLabel(){
+      var field = $(this).closest('.field');
       if(jQuery.trim($(this).val()).length == 0){ 
-        $(this).closest('.field').find('label.overlabel').css('color', '#777');
+        field.find('label.overlabel').css('color', '#777777');
       }
       else{
-        var field = $(this).closest('.field');
-        field.find('label.overlabel').css('color', field.css('background-color'));
+        field.find('label.overlabel').css('color', '#FFFFFF');
       }
+      field.css('background-color', '#FFFFFF');
     };
 
     function hideLabel(){
@@ -24,7 +25,9 @@
     $('input, textarea').live('focusin', function() {
         
      if(jQuery.trim($(this).val()).length == 0){ 
-        $(this).closest('.field').find('label.overlabel').css('color', '#999');
+        var field = $(this).closest('.field')
+        field.find('label.overlabel').css('color', '#333333');
+        field.css('background-color', '#E5E686');
       }
       else{
         var field = $(this).closest('.field');
