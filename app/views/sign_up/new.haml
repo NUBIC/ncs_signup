@@ -17,11 +17,13 @@
   will contact you
 #sign_up
   = form_for :participant, :url => signup_create_url do |f|
+    .req_fields_msg
+      Asterisks (*) indicate a required field
     .group
       .name Your Name
       .fields
         .field.reg
-          = f.label :name, "First and Last Name", {:class => 'overlabel'}
+          = f.label :name, "First and Last Name *", {:class => 'overlabel'}
           = f.text_field :name, {:size => 34, :maxlength => 150}
     .group
       .name Your Address
@@ -46,7 +48,7 @@
       .name Your phone numbers
       .fields
         .field.reg
-          = f.label :home_phone, {:class => 'overlabel'}
+          = f.label :home_phone, "Home phone *", {:class => 'overlabel'}
           = f.text_field :home_phone, {:size => 34, :maxlength => 150}
         .field.reg
           = f.label :mobile_phone, {:class => 'overlabel'}

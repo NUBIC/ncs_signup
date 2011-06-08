@@ -665,3 +665,8 @@ body {
   font-size: 0.8em;
   font-weight: normal;
 }
+
+/* line 297, ../../../app/stylesheets/screen.scss */
+.req_fields_msg {
+  float: right;
+}
