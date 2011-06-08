@@ -294,12 +294,11 @@ body {
   height: 830px;
 }
 
-/* line 56, ../../../app/stylesheets/screen.scss */
+/* line 55, ../../../app/stylesheets/screen.scss */
 #hancock_layer {
   background: transparent;
   position: absolute;
   top: 0;
-  bottom: 120px;
   left: 0;
   right: 0;
   background-image: url("/images/hancock_layer.png");
@@ -309,12 +308,11 @@ body {
   z-index: 1;
 }
 
-/* line 65, ../../../app/stylesheets/screen.scss */
+/* line 64, ../../../app/stylesheets/screen.scss */
 #metra_layer {
   background: transparent;
   position: absolute;
   top: 0;
-  bottom: 120px;
   left: 0;
   right: 0;
   bottom: 180px;
@@ -324,12 +322,11 @@ body {
   z-index: 2;
 }
 
-/* line 74, ../../../app/stylesheets/screen.scss */
+/* line 73, ../../../app/stylesheets/screen.scss */
 #ferris_layer {
   background: transparent;
   position: absolute;
   top: 0;
-  bottom: 120px;
   left: 0;
   right: 0;
   bottom: 160px;
@@ -339,17 +336,17 @@ body {
   z-index: 3;
 }
 
-/* line 83, ../../../app/stylesheets/screen.scss */
+/* line 82, ../../../app/stylesheets/screen.scss */
 #cornfield_layer {
   background: transparent;
   position: absolute;
   top: 0;
-  bottom: 120px;
   left: 0;
   right: 0;
   background-image: url("/images/cornfield_layer.png");
   background-repeat: repeat-x;
   background-position: center bottom;
+  bottom: 130px;
   z-index: 4;
 }
 

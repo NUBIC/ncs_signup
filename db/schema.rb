@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(:version => 20110318190640) do
     t.string   "work_phone"
     t.string   "contact_preference"
     t.string   "email"
-    t.string   "exported_at"
+    t.datetime "exported_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
