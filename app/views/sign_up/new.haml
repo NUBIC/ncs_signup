@@ -13,7 +13,7 @@
   and someone from
   %br
   &nbsp;&nbsp;&nbsp;&nbsp;the
-  %em NCS Greater Chicago Study Center
+  %em National Children&#39;s Study Greater Chicago Study Center
   will contact you
 #sign_up
   = form_for :participant, :url => signup_create_url do |f|
@@ -57,17 +57,17 @@
           = f.label :work_phone, {:class => 'overlabel'}
           = f.text_field :work_phone, {:size => 34, :maxlength => 150}
     .group
-      .name Your email
+      .name Your e-mail
       .fields
         .field.reg
-          = f.label :email, {:class => 'overlabel'}
+          = f.label :email, "e-mail", {:class => 'overlabel'}
           = f.text_field :email, {:size => 34, :maxlength => 150}
     .group  
       .name &nbsp;
       .fields
         .alt_field
           = f.label :contact_preference, "Preferred way to contact you?"
-          = f.select :contact_preference, ["Call me", "Mail me a brochure", "Send me an email"]
+          = f.select :contact_preference, ["Call me", "Mail me a brochure", "Send me an e-mail"]
    
     .submit_area
       = link_to "Read our confidentiality statement", nil, {:href => "#",:id => "confd_show"}
