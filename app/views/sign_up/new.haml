@@ -8,6 +8,8 @@
           %li= "Name #{@participant.errors[:name]}"
         -unless @participant.errors[:phone_numbers].blank?
           %li= "Phone numbers #{@participant.errors[:phone_numbers]}"
+        -unless @participant.errors[:email].blank?
+          %li= "E-mail #{@participant.errors[:email]}"
 %h1.heading
   %em Fill in this form
   and someone from
@@ -60,7 +62,7 @@
       .name Your e-mail
       .fields
         .field.reg
-          = f.label :email, "e-mail", {:class => 'overlabel'}
+          = f.label :email, "E-mail", {:class => 'overlabel'}
           = f.text_field :email, {:size => 34, :maxlength => 150}
     .group  
       .name &nbsp;

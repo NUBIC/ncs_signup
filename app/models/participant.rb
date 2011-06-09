@@ -4,8 +4,9 @@ class Participant < ActiveRecord::Base
     :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, 
     :on => :create,
     :allow_blank => true, 
-    :message => "needs to be in the correct format (e.g. someone@somewhere.com)" }
+    :message => "needs to be in the correct format, like someone@somesite.com" }
   validate :at_least_one_phone_number 
+ 
   attr_accessor :phone_numbers
 
   def at_least_one_phone_number
@@ -17,4 +18,5 @@ class Participant < ActiveRecord::Base
       errors.add(:mobile_phone, nil)
     end
   end
+
 end
