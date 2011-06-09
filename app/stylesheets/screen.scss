@@ -17,6 +17,8 @@ body.bp {
 // Some of our color settings
 $primary_text: #f0f0f0;
 $label_text: #777;
+$label_bg: #fff;
+$active_label_bg: #ecf1a7;
 $footer_bg: #fff;
 $bg_color: #3a5fa6;
 
@@ -162,14 +164,14 @@ h1.heading {
 
   .field {
     margin: 5px;
-    background: #fff;
+    //background: $label_bg;
     border: 1px inset #999;
     
     label{
       position: absolute;
       padding: 2px 3px 3px 3px;
       margin-left: 3px;
-      color: $label_text;
+      //color: $label_text;
       background: transparent;
      }
 
@@ -296,4 +298,22 @@ h1.thank_you{
   float: right;
 }
 
+.visible_label{
+  color: $label_text !important; 
+  background-color: $label_bg !important;
+}
 
+.hidden_label{
+  color: $label_bg !important;
+  background-color: $label_bg !important;
+}
+
+.active_visible_label{
+  color: $label_text !important;
+  background-color: $active_label_bg !important;
+}
+
+.active_hidden_label{
+  color: $active_label_bg !important;
+  background-color: $active_label_bg !important;
+}

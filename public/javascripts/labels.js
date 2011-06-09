@@ -1,44 +1,66 @@
 
 (function($) {
 
-    function showLabel(){
-      var field = $(this).closest('.field');
-      if(jQuery.trim($(this).val()).length == 0){ 
-        field.find('label.overlabel').css('color', '#777777');
-      }
-      else{
-        field.find('label.overlabel').css('color', '#FFFFFF');
-      }
-      field.css('background-color', '#FFFFFF');
-    };
-
-    function hideLabel(){
-      var field = $(this).closest('.field');
-      field.find('label.overlabel').css('color', field.css('background-color'));
-    };
-
-    $('input, textarea').live('keydown', hideLabel);
-    $('input, textarea').live('paste', hideLabel);
-    $('input, textarea').live('focusout', showLabel);
-
-    //Gray it out when in focus
-    $('input, textarea').live('focusin', function() {
-        
-     if(jQuery.trim($(this).val()).length == 0){ 
-        var field = $(this).closest('.field')
-        field.find('label.overlabel').css('color', '#333333');
-        field.css('background-color', '#E5E686');
-      }
-      else{
-        var field = $(this).closest('.field');
-        field.find('label.overlabel').css('color', field.css('background-color'));
-      }
-    });
+    // input wire-up
+    $('input').live('keyup', active_field)
+    .live('paste', active_field)
+    .live('focusout', check_field)
+    .live('focusin', active_field);
 
     // runs on page loading complete to adjust labels based on content
     $(function() {
-        $('input, textarea').each(showLabel);
+        $('input').each(check_field);
     });
+
+    // Currently being typed into
+    function active_field(){
+      var field = $(this).closest('.field');
+      cleanup(field);
+      if(field_is_empty(field)){  
+        field.addClass('active_visible_label'); 
+      }
+      else {
+        field.addClass('active_hidden_label');
+      }
+    };
+
+    // to determine the status
+    function check_field(){
+      var field = $(this).closest('.field');
+      if(field_is_empty(field)){
+        empty_field(field);
+      }
+      else {
+        full_field(field);
+      }
+    };
+
+    // No chars, not being typed into
+    function empty_field(field){
+      cleanup(field);
+      field.addClass('visible_label');
+    };
+    
+    // One or more chars, previously typed into
+    function full_field(field){
+      cleanup(field);
+      field.addClass('hidden_label');
+    };
+
+    // removes all the classes we add which modify the look of the field
+    function cleanup(field){
+      field.removeClass('visible_label hidden_label active_visible_label active_hidden_label');
+    }
+
+    // our determination of emptyness
+    function field_is_empty(field){
+      if(jQuery.trim(field.find('input').val()).length == 0){
+        return true;
+      }
+      else { 
+        return false;
+      }
+    }
 
 })(jQuery);
 
