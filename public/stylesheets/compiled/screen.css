@@ -424,19 +424,19 @@ body {
   margin: 0;
 }
 
-/* line 130, ../../../app/stylesheets/screen.scss */
-#heading {
+/* line 131, ../../../app/stylesheets/screen.scss */
+h1.heading {
   margin-top: 1em;
-  font-size: 2em;
+  padding-left: 40px;
+  color: #f0f0f0 !important;
 }
-/* line 134, ../../../app/stylesheets/screen.scss */
-#heading em {
+/* line 135, ../../../app/stylesheets/screen.scss */
+h1.heading em {
   font-style: normal;
-  font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 142, ../../../app/stylesheets/screen.scss */
+/* line 141, ../../../app/stylesheets/screen.scss */
 #sign_up {
   margin-top: 2em;
   padding-left: 80px;
@@ -450,7 +450,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 148, ../../../app/stylesheets/screen.scss */
+/* line 147, ../../../app/stylesheets/screen.scss */
 .group {
   display: inline;
   float: left;
@@ -463,7 +463,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 153, ../../../app/stylesheets/screen.scss */
+/* line 152, ../../../app/stylesheets/screen.scss */
 .name {
   display: inline;
   float: left;
@@ -479,7 +479,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 161, ../../../app/stylesheets/screen.scss */
+/* line 160, ../../../app/stylesheets/screen.scss */
 .fields {
   display: inline;
   float: left;
@@ -490,13 +490,13 @@ body {
 * html .fields {
   overflow-x: hidden;
 }
-/* line 164, ../../../app/stylesheets/screen.scss */
+/* line 163, ../../../app/stylesheets/screen.scss */
 .fields .field {
   margin: 5px;
   background: #fff;
   border: 1px inset #999;
 }
-/* line 169, ../../../app/stylesheets/screen.scss */
+/* line 168, ../../../app/stylesheets/screen.scss */
 .fields .field label {
   position: absolute;
   padding: 2px 3px 3px 3px;
@@ -504,7 +504,7 @@ body {
   color: #777777;
   background: transparent;
 }
-/* line 177, ../../../app/stylesheets/screen.scss */
+/* line 176, ../../../app/stylesheets/screen.scss */
 .fields .field input, .fields .field textarea, .fields .field select {
   position: relative;
   margin: 0;
@@ -513,7 +513,7 @@ body {
   background: transparent;
   font: inherit;
 }
-/* line 186, ../../../app/stylesheets/screen.scss */
+/* line 185, ../../../app/stylesheets/screen.scss */
 .fields .reg {
   display: inline;
   float: left;
@@ -524,7 +524,7 @@ body {
 * html .fields .reg {
   overflow-x: hidden;
 }
-/* line 189, ../../../app/stylesheets/screen.scss */
+/* line 188, ../../../app/stylesheets/screen.scss */
 .fields .sub_group {
   display: inline;
   float: left;
@@ -535,7 +535,7 @@ body {
 * html .fields .sub_group {
   overflow-x: hidden;
 }
-/* line 192, ../../../app/stylesheets/screen.scss */
+/* line 191, ../../../app/stylesheets/screen.scss */
 .fields .city {
   display: inline;
   float: left;
@@ -546,7 +546,7 @@ body {
 * html .fields .city {
   overflow-x: hidden;
 }
-/* line 195, ../../../app/stylesheets/screen.scss */
+/* line 194, ../../../app/stylesheets/screen.scss */
 .fields .state {
   display: inline;
   float: left;
@@ -557,7 +557,7 @@ body {
 * html .fields .state {
   overflow-x: hidden;
 }
-/* line 198, ../../../app/stylesheets/screen.scss */
+/* line 197, ../../../app/stylesheets/screen.scss */
 .fields .zip {
   display: inline;
   float: left;
@@ -568,22 +568,22 @@ body {
 * html .fields .zip {
   overflow-x: hidden;
 }
-/* line 202, ../../../app/stylesheets/screen.scss */
+/* line 201, ../../../app/stylesheets/screen.scss */
 .fields .alt_field {
   color: #f0f0f0;
   font-weight: bold;
 }
-/* line 205, ../../../app/stylesheets/screen.scss */
+/* line 204, ../../../app/stylesheets/screen.scss */
 .fields .alt_field label {
   font-size: 1.2em;
 }
 
-/* line 212, ../../../app/stylesheets/screen.scss */
+/* line 211, ../../../app/stylesheets/screen.scss */
 .field_with_errors {
   background-color: #ecf1a7;
 }
 
-/* line 217, ../../../app/stylesheets/screen.scss */
+/* line 216, ../../../app/stylesheets/screen.scss */
 .submit_area {
   text-align: right;
   clear: both;
@@ -591,27 +591,27 @@ body {
   padding-top: 2em;
   font-size: 1.1em;
 }
-/* line 224, ../../../app/stylesheets/screen.scss */
+/* line 223, ../../../app/stylesheets/screen.scss */
 .submit_area a {
   color: #f0f0f0 !important;
   font-weight: bold;
 }
-/* line 228, ../../../app/stylesheets/screen.scss */
+/* line 227, ../../../app/stylesheets/screen.scss */
 .submit_area a:visited {
   color: #f0f0f0 !important;
 }
-/* line 232, ../../../app/stylesheets/screen.scss */
+/* line 231, ../../../app/stylesheets/screen.scss */
 .submit_area a:hover {
   color: #fcff00 !important;
 }
 
-/* line 238, ../../../app/stylesheets/screen.scss */
+/* line 237, ../../../app/stylesheets/screen.scss */
 #signup_submit {
   font-size: 1.5em;
   padding: 5px;
 }
 
-/* line 243, ../../../app/stylesheets/screen.scss */
+/* line 242, ../../../app/stylesheets/screen.scss */
 #footer {
   position: absolute;
   bottom: 0px;
@@ -622,25 +622,25 @@ body {
   font-size: 1.1em;
   z-index: 5;
 }
-/* line 253, ../../../app/stylesheets/screen.scss */
+/* line 252, ../../../app/stylesheets/screen.scss */
 #footer .ncs_logo {
   float: left;
   padding-top: 0.2em;
   padding-left: 0.4em;
 }
-/* line 259, ../../../app/stylesheets/screen.scss */
+/* line 258, ../../../app/stylesheets/screen.scss */
 #footer .contact_info {
   padding-top: 1em;
   text-align: center;
 }
-/* line 264, ../../../app/stylesheets/screen.scss */
+/* line 263, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text {
   float: right;
   width: 200px;
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
-/* line 270, ../../../app/stylesheets/screen.scss */
+/* line 269, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text img {
   padding: 1em;
   display: block;
@@ -648,25 +648,25 @@ body {
   margin-right: auto;
 }
 
-/* line 280, ../../../app/stylesheets/screen.scss */
+/* line 279, ../../../app/stylesheets/screen.scss */
 #confd_msg {
   display: none;
 }
 
-/* line 284, ../../../app/stylesheets/screen.scss */
+/* line 283, ../../../app/stylesheets/screen.scss */
 #thank_you {
   margin-top: 4em;
   padding-left: 40px;
   font-size: 2em;
   font-weight: bold;
 }
-/* line 290, ../../../app/stylesheets/screen.scss */
+/* line 289, ../../../app/stylesheets/screen.scss */
 #thank_you .note {
   font-size: 0.8em;
   font-weight: normal;
 }
 
-/* line 297, ../../../app/stylesheets/screen.scss */
+/* line 296, ../../../app/stylesheets/screen.scss */
 .req_fields_msg {
   float: right;
 }

@@ -8,7 +8,7 @@
           %li= "Name #{@participant.errors[:name]}"
         -unless @participant.errors[:phone_numbers].blank?
           %li= "Phone numbers #{@participant.errors[:phone_numbers]}"
-#heading
+%h1.heading
   %em Fill in this form
   and someone from
   %br

@@ -127,16 +127,15 @@ body {
     }
   }
 }
-#heading {
+
+h1.heading {
   @include prepend-top(1em);
-  font-size: 2em;
-  
+  @include prepend(1);
+  color: $primary_text !important;
   em {
     font-style: normal;
-    font-size: 1.2em;
     font-weight: bold;
   }
-
 }
 
 #sign_up{
