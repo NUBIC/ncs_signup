@@ -654,14 +654,15 @@ h1.heading em {
 }
 
 /* line 283, ../../../app/stylesheets/screen.scss */
-#thank_you {
+h1.thank_you {
   margin-top: 4em;
   padding-left: 40px;
   font-size: 2em;
   font-weight: bold;
+  color: #f0f0f0 !important;
 }
 /* line 289, ../../../app/stylesheets/screen.scss */
-#thank_you .note {
+h1.thank_you .note {
   font-size: 0.8em;
   font-weight: normal;
 }

@@ -280,12 +280,12 @@ h1.heading {
   display: none;
 }
 
-#thank_you{
+h1.thank_you{
   @include prepend-top(4em);
   @include prepend(1);
   font-size: 2em;
   font-weight: bold;
-
+  color: $primary_text !important;
   .note {
     font-size: 0.8em;
     font-weight: normal;
