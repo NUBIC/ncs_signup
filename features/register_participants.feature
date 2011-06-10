@@ -17,7 +17,7 @@ Feature: Manage register_participants
     And I fill in "E-mail" with "email@somewhere.com"
     And I select "Call me" from "Preferred way to contact you?"
     And I press "Submit"
-    Then I should see "Thanks for submitting your information!" within "#thank_you"
+    Then I should see "Thanks for submitting your information!" within ".thank_you"
 
 
    Scenario: Participant does not give all required fields - no name
