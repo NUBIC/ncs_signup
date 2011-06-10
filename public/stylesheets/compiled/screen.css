@@ -283,19 +283,19 @@ body.bp .loud {
   color: #111111;
 }
 
-/* line 37, ../../../app/stylesheets/screen.scss */
+/* line 36, ../../../app/stylesheets/screen.scss */
 body {
   background-color: white;
 }
 
-/* line 42, ../../../app/stylesheets/screen.scss */
+/* line 41, ../../../app/stylesheets/screen.scss */
 #layer_frame {
   position: relative;
-  height: 880px;
+  height: 900px;
   background-color: #3a5fa6;
 }
 
-/* line 57, ../../../app/stylesheets/screen.scss */
+/* line 56, ../../../app/stylesheets/screen.scss */
 #hancock_layer {
   background: transparent;
   position: absolute;
@@ -309,7 +309,7 @@ body {
   z-index: 1;
 }
 
-/* line 66, ../../../app/stylesheets/screen.scss */
+/* line 65, ../../../app/stylesheets/screen.scss */
 #metra_layer {
   background: transparent;
   position: absolute;
@@ -323,7 +323,7 @@ body {
   z-index: 2;
 }
 
-/* line 75, ../../../app/stylesheets/screen.scss */
+/* line 74, ../../../app/stylesheets/screen.scss */
 #ferris_layer {
   background: transparent;
   position: absolute;
@@ -337,7 +337,7 @@ body {
   z-index: 3;
 }
 
-/* line 84, ../../../app/stylesheets/screen.scss */
+/* line 83, ../../../app/stylesheets/screen.scss */
 #cornfield_layer {
   background: transparent;
   position: absolute;
@@ -351,7 +351,7 @@ body {
   z-index: 4;
 }
 
-/* line 94, ../../../app/stylesheets/screen.scss */
+/* line 93, ../../../app/stylesheets/screen.scss */
 #container {
   position: absolute;
   left: 15%;
@@ -363,7 +363,7 @@ body {
   z-index: 10;
 }
 
-/* line 104, ../../../app/stylesheets/screen.scss */
+/* line 103, ../../../app/stylesheets/screen.scss */
 #content {
   display: inline;
   float: left;
@@ -376,7 +376,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 109, ../../../app/stylesheets/screen.scss */
+/* line 108, ../../../app/stylesheets/screen.scss */
 #flashmsg {
   display: inline;
   float: left;
@@ -392,7 +392,7 @@ body {
 * html #flashmsg {
   overflow-x: hidden;
 }
-/* line 116, ../../../app/stylesheets/screen.scss */
+/* line 115, ../../../app/stylesheets/screen.scss */
 #flashmsg .msg {
   display: inline;
   float: left;
@@ -404,7 +404,7 @@ body {
 * html #flashmsg .msg {
   overflow-x: hidden;
 }
-/* line 121, ../../../app/stylesheets/screen.scss */
+/* line 120, ../../../app/stylesheets/screen.scss */
 #flashmsg .ers {
   display: inline;
   float: left;
@@ -418,25 +418,25 @@ body {
 * html #flashmsg .ers {
   overflow-x: hidden;
 }
-/* line 126, ../../../app/stylesheets/screen.scss */
+/* line 125, ../../../app/stylesheets/screen.scss */
 #flashmsg .ers ul {
   padding: 0.3em 0;
   margin: 0;
 }
 
-/* line 133, ../../../app/stylesheets/screen.scss */
+/* line 132, ../../../app/stylesheets/screen.scss */
 h1.heading {
   margin-top: 1em;
   padding-left: 40px;
   color: #f0f0f0 !important;
 }
-/* line 137, ../../../app/stylesheets/screen.scss */
+/* line 136, ../../../app/stylesheets/screen.scss */
 h1.heading em {
   font-style: normal;
   font-weight: bold;
 }
 
-/* line 143, ../../../app/stylesheets/screen.scss */
+/* line 142, ../../../app/stylesheets/screen.scss */
 #sign_up {
   margin-top: 2em;
   padding-left: 80px;
@@ -450,7 +450,7 @@ h1.heading em {
   overflow-x: hidden;
 }
 
-/* line 149, ../../../app/stylesheets/screen.scss */
+/* line 148, ../../../app/stylesheets/screen.scss */
 .group {
   display: inline;
   float: left;
@@ -463,7 +463,7 @@ h1.heading em {
   overflow-x: hidden;
 }
 
-/* line 154, ../../../app/stylesheets/screen.scss */
+/* line 153, ../../../app/stylesheets/screen.scss */
 .name {
   display: inline;
   float: left;
@@ -479,7 +479,7 @@ h1.heading em {
   overflow-x: hidden;
 }
 
-/* line 162, ../../../app/stylesheets/screen.scss */
+/* line 161, ../../../app/stylesheets/screen.scss */
 .fields {
   display: inline;
   float: left;
@@ -490,19 +490,19 @@ h1.heading em {
 * html .fields {
   overflow-x: hidden;
 }
-/* line 165, ../../../app/stylesheets/screen.scss */
+/* line 164, ../../../app/stylesheets/screen.scss */
 .fields .field {
   margin: 5px;
   border: 1px inset #999;
 }
-/* line 170, ../../../app/stylesheets/screen.scss */
+/* line 169, ../../../app/stylesheets/screen.scss */
 .fields .field label {
   position: absolute;
   padding: 2px 3px 3px 3px;
   margin-left: 3px;
   background: transparent;
 }
-/* line 178, ../../../app/stylesheets/screen.scss */
+/* line 177, ../../../app/stylesheets/screen.scss */
 .fields .field input, .fields .field textarea, .fields .field select {
   position: relative;
   margin: 0;
@@ -511,7 +511,7 @@ h1.heading em {
   background: transparent;
   font: inherit;
 }
-/* line 187, ../../../app/stylesheets/screen.scss */
+/* line 186, ../../../app/stylesheets/screen.scss */
 .fields .reg {
   display: inline;
   float: left;
@@ -522,7 +522,7 @@ h1.heading em {
 * html .fields .reg {
   overflow-x: hidden;
 }
-/* line 190, ../../../app/stylesheets/screen.scss */
+/* line 189, ../../../app/stylesheets/screen.scss */
 .fields .sub_group {
   display: inline;
   float: left;
@@ -533,7 +533,7 @@ h1.heading em {
 * html .fields .sub_group {
   overflow-x: hidden;
 }
-/* line 193, ../../../app/stylesheets/screen.scss */
+/* line 192, ../../../app/stylesheets/screen.scss */
 .fields .city {
   display: inline;
   float: left;
@@ -544,7 +544,7 @@ h1.heading em {
 * html .fields .city {
   overflow-x: hidden;
 }
-/* line 196, ../../../app/stylesheets/screen.scss */
+/* line 195, ../../../app/stylesheets/screen.scss */
 .fields .state {
   display: inline;
   float: left;
@@ -555,7 +555,7 @@ h1.heading em {
 * html .fields .state {
   overflow-x: hidden;
 }
-/* line 199, ../../../app/stylesheets/screen.scss */
+/* line 198, ../../../app/stylesheets/screen.scss */
 .fields .zip {
   display: inline;
   float: left;
@@ -566,22 +566,22 @@ h1.heading em {
 * html .fields .zip {
   overflow-x: hidden;
 }
-/* line 203, ../../../app/stylesheets/screen.scss */
+/* line 202, ../../../app/stylesheets/screen.scss */
 .fields .alt_field {
   color: #f0f0f0;
   font-weight: bold;
 }
-/* line 206, ../../../app/stylesheets/screen.scss */
+/* line 205, ../../../app/stylesheets/screen.scss */
 .fields .alt_field label {
   font-size: 1.2em;
 }
 
-/* line 213, ../../../app/stylesheets/screen.scss */
+/* line 212, ../../../app/stylesheets/screen.scss */
 .field_with_errors {
   background-color: #ecf1a7;
 }
 
-/* line 218, ../../../app/stylesheets/screen.scss */
+/* line 217, ../../../app/stylesheets/screen.scss */
 .submit_area {
   text-align: right;
   clear: both;
@@ -589,27 +589,27 @@ h1.heading em {
   padding-top: 2em;
   font-size: 1.1em;
 }
-/* line 225, ../../../app/stylesheets/screen.scss */
+/* line 224, ../../../app/stylesheets/screen.scss */
 .submit_area a {
   color: #f0f0f0 !important;
   font-weight: bold;
 }
-/* line 229, ../../../app/stylesheets/screen.scss */
+/* line 228, ../../../app/stylesheets/screen.scss */
 .submit_area a:visited {
   color: #f0f0f0 !important;
 }
-/* line 233, ../../../app/stylesheets/screen.scss */
+/* line 232, ../../../app/stylesheets/screen.scss */
 .submit_area a:hover {
   color: #fcff00 !important;
 }
 
-/* line 239, ../../../app/stylesheets/screen.scss */
+/* line 238, ../../../app/stylesheets/screen.scss */
 #signup_submit {
   font-size: 1.5em;
   padding: 5px;
 }
 
-/* line 244, ../../../app/stylesheets/screen.scss */
+/* line 243, ../../../app/stylesheets/screen.scss */
 #footer {
   position: absolute;
   bottom: 0px;
@@ -619,25 +619,25 @@ h1.heading em {
   background-color: white;
   z-index: 5;
 }
-/* line 253, ../../../app/stylesheets/screen.scss */
+/* line 252, ../../../app/stylesheets/screen.scss */
 #footer .ncs_logo {
   float: left;
   padding-top: 0.2em;
   padding-left: 0.4em;
 }
-/* line 259, ../../../app/stylesheets/screen.scss */
+/* line 258, ../../../app/stylesheets/screen.scss */
 #footer .contact_info {
   padding-top: 1em;
   text-align: center;
 }
-/* line 264, ../../../app/stylesheets/screen.scss */
+/* line 263, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text {
   float: right;
   width: 200px;
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
-/* line 270, ../../../app/stylesheets/screen.scss */
+/* line 269, ../../../app/stylesheets/screen.scss */
 #footer .ncs_text img {
   padding: 1em;
   display: block;
@@ -645,48 +645,53 @@ h1.heading em {
   margin-right: auto;
 }
 
-/* line 280, ../../../app/stylesheets/screen.scss */
+/* line 279, ../../../app/stylesheets/screen.scss */
 #confd_msg {
   display: none;
 }
 
-/* line 284, ../../../app/stylesheets/screen.scss */
+/* line 283, ../../../app/stylesheets/screen.scss */
 h1.thank_you {
   margin-top: 4em;
   padding-left: 40px;
   font-weight: bold;
   color: #f0f0f0 !important;
 }
-/* line 290, ../../../app/stylesheets/screen.scss */
+/* line 289, ../../../app/stylesheets/screen.scss */
 h1.thank_you .note {
   font-size: 0.8em;
   font-weight: normal;
 }
 
-/* line 297, ../../../app/stylesheets/screen.scss */
+/* line 296, ../../../app/stylesheets/screen.scss */
 .req_fields_msg {
   float: right;
 }
 
-/* line 301, ../../../app/stylesheets/screen.scss */
+/* line 300, ../../../app/stylesheets/screen.scss */
 .visible_label {
   color: #777777 !important;
   background-color: white !important;
 }
 
-/* line 306, ../../../app/stylesheets/screen.scss */
+/* line 305, ../../../app/stylesheets/screen.scss */
 .hidden_label {
   color: white !important;
   background-color: white !important;
 }
+/* line 309, ../../../app/stylesheets/screen.scss */
+.hidden_label .field_with_errors {
+  color: #ecf1a7 !important;
+  background-color: #ecf1a7 !important;
+}
 
-/* line 311, ../../../app/stylesheets/screen.scss */
+/* line 315, ../../../app/stylesheets/screen.scss */
 .active_visible_label {
   color: #777777 !important;
   background-color: #ecf1a7 !important;
 }
 
-/* line 316, ../../../app/stylesheets/screen.scss */
+/* line 320, ../../../app/stylesheets/screen.scss */
 .active_hidden_label {
   color: #ecf1a7 !important;
   background-color: #ecf1a7 !important;

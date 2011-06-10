@@ -2,7 +2,8 @@
 (function($) {
 
     // input wire-up
-    $('input').live('keyup', active_field)
+    $('input').live('keydown', active_field)
+    .live('keyup', active_field)
     .live('paste', active_field)
     .live('focusout', check_field)
     .live('focusin', active_field);
@@ -48,8 +49,10 @@
     };
 
     // removes all the classes we add which modify the look of the field
+    // If we're in error mode, we want to remove the error class too
     function cleanup(field){
       field.removeClass('visible_label hidden_label active_visible_label active_hidden_label');
+      //field.find('div').removeClass('field_with_errors');
     }
 
     // our determination of emptyness
