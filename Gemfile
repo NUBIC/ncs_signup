@@ -1,5 +1,4 @@
 source 'http://rubygems.org'
-source "http://download.bioinformatics.northwestern.edu/gems/"
 
 gem 'rails', '3.0.5'
 
@@ -14,10 +13,11 @@ gem 'bcdatabase'
 gem 'fastercsv'
 gem 'rake', '~> 0.8.7' # version 0.9.0 is bad http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0-beta-4
 
-group :development, :test do
+group :test do
   gem 'rspec-rails', '~>2.5.0'
   gem 'capybara', '~> 0.4.1.2'
   gem 'cucumber-rails', '~>0.3.2'
+  gem 'cucumber', '~>0.10.7'
 end
 
 # Use unicorn as the web server

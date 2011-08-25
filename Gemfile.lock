@@ -1,6 +1,5 @@
 GEM
   remote: http://rubygems.org/
-  remote: http://download.bioinformatics.northwestern.edu/gems/
   specs:
     abstract (1.0.0)
     actionmailer (3.0.5)
@@ -55,10 +54,10 @@ GEM
       ffi (~> 1.0.6)
     compass (0.10.6)
       haml (>= 3.0.4)
-    cucumber (0.10.3)
+    cucumber (0.10.7)
       builder (>= 2.1.2)
       diff-lcs (>= 1.1.2)
-      gherkin (>= 2.3.8)
+      gherkin (~> 2.4.0)
       json (>= 1.4.6)
       term-ansicolor (>= 1.0.5)
     cucumber-rails (0.3.2)
@@ -69,12 +68,12 @@ GEM
       abstract (>= 1.0.0)
     fastercsv (1.5.4)
     ffi (1.0.9)
-    gherkin (2.3.9)
+    gherkin (2.4.15)
       json (>= 1.4.6)
     haml (3.0.25)
     highline (1.6.2)
     i18n (0.6.0)
-    json (1.5.1)
+    json (1.5.3)
     json_pure (1.5.1)
     mail (2.2.19)
       activesupport (>= 2.3.6)
@@ -130,7 +129,7 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
-    term-ansicolor (1.0.5)
+    term-ansicolor (1.0.6)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -146,6 +145,7 @@ DEPENDENCIES
   capistrano
   capybara (~> 0.4.1.2)
   compass (~> 0.10.6)
+  cucumber (~> 0.10.7)
   cucumber-rails (~> 0.3.2)
   fastercsv
   haml (~> 3.0.25)
