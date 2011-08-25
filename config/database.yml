@@ -3,29 +3,16 @@
   bcdb = Bcdatabase.load
 %>
 
-development:
-  adapter: postgresql
-  database: ncs_signup_development
-  username: ncs_user
-  password: childr3n!
-  encoding: utf8
+<%= bcdb.development :local_postgresql, :ncs_signup %>
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test: &test
-  adapter: postgresql
-  database: ncs_signup_test
-  username: ncs_user
-  password: childr3n!
-  encoding: utf8
+<%= bcdb.test :local_postgresql, :ncs_signup_test %>
 
-cucumber:
-  <<: *test
-
+# Traditionally the same as test.
+<%= bcdb.cucumber :local_postgresql, :ncs_signup_test %>
 
 <%= bcdb.staging :ncsdb_staging, :ncs_signup %>
 
 <%= bcdb.production :ncsdb_prod, :ncs_signup %>
-
-
