@@ -1,7 +1,7 @@
 require 'bundler/capistrano'
 require 'bcdatabase'
 
-bcconf = Bcdatabase.load[:ncs_conf,:ncs_signup] # Using the bcdatabase gem for server config
+bcconf = Bcdatabase.load[:ncs_deploy, :ncs_signup] # Using the bcdatabase gem for server config
 
 set :application, "ncs_signup"
 
