@@ -29,7 +29,7 @@ GEM
       activesupport (= 3.0.5)
     activesupport (3.0.5)
     arel (2.0.10)
-    bcdatabase (1.0.5)
+    bcdatabase (1.0.6)
       activesupport (>= 2.0)
       highline (~> 1.5)
       i18n
