@@ -11,7 +11,6 @@ describe Participant do
   end
 
   describe "email validiation" do
- 
     it "rejects a plain ol string" do
       @valid_participant.email = "veryinvalidemail"
       @valid_participant.should_not be_valid
@@ -26,7 +25,6 @@ describe Participant do
   end
 
   describe "name validator" do
-
     it "requires a name" do
       @valid_participant.name = ""
       @valid_participant.should_not be_valid
@@ -34,7 +32,7 @@ describe Participant do
     end
   end
 
-  describe "phone numbers" do 
+  describe "phone numbers" do
     before(:each) do
       @empty_phones = @valid_participant
       @empty_phones.home_phone = ""
