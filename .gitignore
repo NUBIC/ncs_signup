@@ -7,3 +7,4 @@ tmp/
 export/*.csv
 .DS_Store
 
+reports

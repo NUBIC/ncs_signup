@@ -16,3 +16,5 @@
 <%= bcdb.staging :ncsdb_staging, :ncs_signup %>
 
 <%= bcdb.production :ncsdb_prod, :ncs_signup %>
+
+<%= bcdb.ci :public_ci_postgresql9, :ncs_signup %>

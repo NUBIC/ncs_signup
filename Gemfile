@@ -13,11 +13,12 @@ gem 'bcdatabase'
 gem 'fastercsv'
 gem 'rake', '~> 0.8.7' # version 0.9.0 is bad http://stackoverflow.com/questions/5287121/undefined-method-task-using-rake-0-9-0-beta-4
 
-group :development, :test do
+group :development, :test, :ci do
   gem 'rspec-rails', '~>2.5.0'
   gem 'capybara', '~> 0.4.1.2'
   gem 'cucumber-rails', '~>0.3.2'
   gem 'cucumber', '~>0.10.7'
+  gem 'ci_reporter', '~> 1.6'
 end
 
 # Use unicorn as the web server
